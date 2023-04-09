@@ -46,22 +46,22 @@ if (isset($_GET['id'])) {
         <label for="A_Veracruz">Arrival Veracruz</label>
         <label for="A_Altamira">Arrival Altamira </label>
         <input type="text" name="IMO_No" value="<?=$contact['IMO_No']?>" id="IMO_No">
-        <input type="text" name="A_Veracruz" value="<?=$contact['A_Veracruz']?>" id="A_Veracruz">
-        <input type="text" name="A_Altamira" value="<?=$contact['A_Altamira']?>" id="A_Altamira">
+        <input type="date" name="A_Veracruz" value="<?=$contact['A_Veracruz']?>" id="A_Veracruz">
+        <input type="date" name="A_Altamira" value="<?=$contact['A_Altamira']?>" id="A_Altamira">
 
         
         <label for="A_Miami">Arrival Miami </label>
         <label for="A_Charleston">Arrival Charleston </label>
         <label for="A_Miami">Arrival Miami </label>
-        <input type="text" name="A_Miami" value="<?=$contact['A_Miami']?>" id="A_Miami">
-        <input type="text" name="A_Charleston" value="<?=$contact['A_Charleston']?>" id="A_Charleston">
-        <input type="text" name="A_Antwerp" value="<?=$contact['A_Antwerp']?>" id="A_Antwerp">
+        <input type="date" name="A_Miami" value="<?=$contact['A_Miami']?>" id="A_Miami">
+        <input type="date" name="A_Charleston" value="<?=$contact['A_Charleston']?>" id="A_Charleston">
+        <input type="date" name="A_Antwerp" value="<?=$contact['A_Antwerp']?>" id="A_Antwerp">
 
         <label for="A_LeHavre">Arrival Miami </label>
         <label for="A_Houston">Arrival Charleston </label>
         <label for="A_Houston"> </label>
-        <input type="text" name="A_LeHavre" value="<?=$contact['A_LeHavre']?>" id="A_LeHavre">
-        <input type="text" name="A_Houston" value="<?=$contact['A_Houston']?>" id="A_Houston">
+        <input type="date" name="A_LeHavre" value="<?=$contact['A_LeHavre']?>" id="A_LeHavre">
+        <input type="date" name="A_Houston" value="<?=$contact['A_Houston']?>" id="A_Houston">
         <label for="A_Houston"> </label>
         
 

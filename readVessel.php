@@ -18,7 +18,7 @@ $contacts = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
 
 // Get the total number of contacts, this is so we can determine whether there should be a next and previous button
-$num_contacts = $pdo->query('SELECT COUNT(*) FROM kontak')->fetchColumn();
+$num_contacts = $pdo->query('SELECT COUNT(*) FROM vessel')->fetchColumn();
 ?>
 
 
