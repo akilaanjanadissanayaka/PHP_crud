@@ -26,8 +26,7 @@ echo <<<EOT
     	<div>
     		<h1>Everblue Ocen Express</h1>
             <a href="index.php"><i class="fas fa-home"></i>Home</a>
-    		<a href="read.php"><i class="fas fa-address-book"></i>Contacts</a>
-    		<a href="readVessel.php"><i class="fas fa-address-book"></i>Routs</a>
+    		<a href="readVessel.php"><i class="fas fa-duotone fa-ship"></i>Routs</a>
     	</div>
     </nav>
 EOT;

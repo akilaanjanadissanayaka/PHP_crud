@@ -33,7 +33,7 @@ if (isset($_GET['id'])) {
 <?=template_header('Delete')?>
 
 <div class="content delete">
-	<h2>Delete Contact #<?=$contact['IMO_No']?></h2>
+	<h2>Delete Vessel #<?=$contact['IMO_No']?></h2>
     <?php if ($msg): ?>
     <p><?=$msg?></p>
     <?php else: ?>
