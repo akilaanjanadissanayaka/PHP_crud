@@ -32,9 +32,8 @@ echo <<<EOT
 EOT;
 }
 function template_footer() {
-echo <<<EOT
-    </body>
-</html>
-EOT;
+
+include 'Foot.html';
+
 }
 ?>

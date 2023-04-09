@@ -20,7 +20,7 @@ if (isset($_GET['id'])) {
             $msg = 'You have deleted the contact!';
         } else {
             // User clicked the "No" button, redirect them back to the read page
-            header('Location: read.php');
+            header('Location: readVessel.php');
             exit;
         }
     }
@@ -32,7 +32,7 @@ if (isset($_GET['id'])) {
 
 <?=template_header('Delete')?>
 
-<div class="content delete">
+<div class="content delete" style="margin-bottom:112px" >
 	<h2>Delete Vessel #<?=$contact['IMO_No']?></h2>
     <?php if ($msg): ?>
     <p><?=$msg?></p>
@@ -45,4 +45,3 @@ if (isset($_GET['id'])) {
     <?php endif; ?>
 </div>
 
-<?=template_footer()?>

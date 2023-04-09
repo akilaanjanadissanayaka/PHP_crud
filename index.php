@@ -7,7 +7,7 @@ include 'functions.php';
 
 <?=template_header('Home')?>
 
-<div class="content">
+<div class="content" style="margin-bottom:183px">
 	<h2>Home</h2>
 	<p>Welcome to the Everblue Ocean Express!</p>
 </div>
